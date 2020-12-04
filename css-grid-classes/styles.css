@@ -1,0 +1,41 @@
+* {
+  font-family: serif;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-header {
+  width: 100%;
+}
+
+.column-smash {
+  width: 65%;
+}
+
+.column-smash-characters {
+  width: 25%;
+}
+
+.column-dk {
+  width: 65%;
+}
+
+.column-dk-character {
+  width: 30%;
+}
+
+.column-mario {
+  width: 65%;
+}
+
+.column-mario-character {
+  width: 30%;
+}
