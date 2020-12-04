@@ -1,0 +1,52 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  display: block;
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgb(23, 148, 231);
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  color: white;
+  font-size: smaller;
+  font-weight: 25;
+  line-height: 1;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+img {
+  margin: 20px auto;
+}
+
+.column {
+  text-align: center;
+  margin: auto;
+}
+
+.round-border {
+  width: 40%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+}
