@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <h1>Coding Form</h1>
+       
+        <form action="http://htmlforms.php" method="get">
+
+            <div>
+                <label for="email">Email
+                </label>
+            </div>
+            
+            <div>
+                <input type="email" name="email" maxlength="100" id="email">
+            </div>
+            <div>
+                <label for="coding-reason">Why is Coding Cool?
+                </label>
+            </div>
+
+            <div>
+                <select name="codingreason?" id="coding-reason">
+                    <option value="">Select an option
+                    </option>
+                    <option value="interesting">Because it's interesting
+                    </option>
+                    <option value="fun">Because it's fun
+                    </option>
+                    <option value="powerful">Because it's powerful
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="favorite-language">Favorite Language (choose one)
+                </label>
+            </div>
+            
+            <div>
+                <input type="radio" name="codinglanguage" value="html"/>HTML
+                <input type="radio" name="codinglanguage" value="css" />CSS
+                <input type="radio" name="codinglanguage" value="javascript" />Javascript
+            </div>
+            <div>
+                <label for="more-info">Would you like to sign up for more information?
+                </label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="info" id="more-info" value="yes" checked="yes"/>Sign me up!
+            </div>
+            <div>
+                <label for="comments">Comments
+                </label>
+            </div>
+
+            <div>
+                <textarea name="comments" id="comments" cols="40" rows="8">Enter your comments here...</textarea>            
+            </div>
+            <div>
+                <input type="submit" name="submit" value="SUBMIT">
+            </div>
+
+        </form>
+    </body>
+</html>
