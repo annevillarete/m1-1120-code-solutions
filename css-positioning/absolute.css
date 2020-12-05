@@ -14,13 +14,12 @@
   font-size: 3rem;
   position: absolute;
   top: 20px;
-  left: 230px;
-  width: 250px;
+  right: 10px;
 }
 
 .joke {
   position: absolute;
-  top: 170px;
+  bottom: 0;
   left: 5px;
   width: 300px;
   margin-bottom: 1rem;
