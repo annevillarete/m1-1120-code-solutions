@@ -3,7 +3,6 @@ var student = {
   lastName: 'Villarete',
   age: '30'
 };
-
 console.log('Value of student:', student);
 console.log('Type of student:', typeof student);
 
@@ -45,12 +44,10 @@ var pet = {
   name: 'Murphy',
   type: 'Dog Shihtzu'
 };
-
 console.log('Value of pet:', pet);
 console.log('Type of pet:', typeof pet);
 
 delete pet.name;
 delete pet.type;
-
 console.log('Value of pet:', pet);
 console.log('Type of pet:', typeof pet);
