@@ -1,5 +1,4 @@
-var colors;
-colors = ['red', 'white', 'blue'];
+var colors = ['red', 'white', 'blue'];
 
 console.log('Value of colors:', colors);
 console.log('Type of colors:', typeof colors);
@@ -21,22 +20,16 @@ console.log(mexicoIs);
 
 console.log('Value of colors:', colors);
 
-var students;
-students = ['Anne', 'Murphy', 'Michael', 'Sarah'];
+var students = ['Anne', 'Murphy', 'Michael', 'Sarah'];
 
 console.log('Value of students:', students);
 
 var numberOfStudents;
 numberOfStudents = students.length;
-console.log('Value of numberOfStudent:', numberOfStudents);
+console.log('There are', numberOfStudents, 'students in the class.');
 
-var lastIndex;
-lastIndex = numberOfStudents - 1;
+var lastIndex = numberOfStudents - 1;
 console.log('Value of lastIndex:', lastIndex);
 
-lastIndex = students[3];
-
-var lastStudent = lastIndex;
+var lastStudent = students[lastIndex];
 console.log('The last student in the array is', lastStudent);
-
-console.log(students);
