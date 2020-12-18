@@ -1,0 +1,39 @@
+html {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+  background-color: #rgb(247, 248, 250);
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-fourths {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-image {
+  height: 150px;
+  padding: 0 180px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 0 180px;
+}
+
+p {
+  font-size: 22px;
+  padding: 0 140px;
+}
