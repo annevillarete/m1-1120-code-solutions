@@ -3,28 +3,31 @@ function convertMinutesToSeconds(minutes) {
   return minutesToSeconds;
 }
 
-console.log(convertMinutesToSeconds(5));
+var convertMinutesToSecondsResults = convertMinutesToSeconds(5);
+console.log('Value of 5 Minutes to Seconds:', convertMinutesToSecondsResults);
 
 function greet(name) {
   var greetUser = 'Hey, ' + name;
   return greetUser;
 }
 
-console.log(greet('Beavis'));
+var greetresults = greet('Beavis');
+console.log('Value of Greeting:', greetresults);
 
 function getArea(width, height) {
   var area = width * height;
-  console.log(area);
+  return area;
 }
 
-getArea(17, 42);
+var getAreaResults = getArea(17, 42);
+console.log('Area of 17x42:', getAreaResults);
 
 function getFirstName(person) {
   var firstName = person.firstName;
   return firstName;
 }
-
-console.log(getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' }));
+var getFirstNameResults = getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
+console.log('Value of First Name:', getFirstNameResults);
 
 function getLastElement(array) {
   var numberOfArray = array.length;
@@ -33,4 +36,5 @@ function getLastElement(array) {
   return lastElement;
 }
 
-console.log(getLastElement(['propane', 'and', 'propane', 'accessories']));
+var getLastElementResult = getLastElement(['propane', 'and', 'propane', 'accessories']);
+console.log('Value of Last Element:', getLastElementResult);
