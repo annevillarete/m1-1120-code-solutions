@@ -6,7 +6,7 @@ body {
 h1 {
   margin: 0 auto;
   font-family: 'Tiempos Headline', sans-serif;
-  font-size: 30px;
+  font-size: 46px;
 }
 
 h2 {
@@ -64,8 +64,14 @@ a {
 }
 
 .three-column-banner {
-  flex-basis: 25%;
+  display: flex;
+  flex-basis: 75%;
   padding: 0 25px;
+  margin: 30px 25px;
+  align-items: center;
+  color: rgba(255, 249, 249, 0.801);
+  font-weight: normal;
+  justify-content: flex-end;
 }
 
 .four-column-banner {
@@ -76,17 +82,6 @@ a {
 .banner-logo {
   display: flex;
   align-items: center;
-}
-
-.justify-flex-end {
-  flex-basis: 75%;
-  padding: 0 25px;
-  margin: 30px 25px;
-  display: flex;
-  align-items: center;
-  color: rgba(255, 249, 249, 0.801);
-  font-weight: normal;
-  justify-content: flex-end;
 }
 
 .logo-blue {
@@ -112,7 +107,7 @@ a {
 
 .background {
   position: relative;
-  padding: 50px 10px;
+  padding: 150px 10px;
 }
 
 .background-image {
@@ -142,15 +137,15 @@ a {
 }
 
 .get-started-button {
-  padding: 20px;
   color: white;
   display: inline-block;
   text-decoration: none;
   background-color: rgb(33, 57, 87);
-  border-radius: 3px;
   height: 3.5rem;
   font-size: 20px;
   font-weight: 100;
+  padding: 15px 45px;
+  border-radius: 7px;
 }
 
 .practices {
@@ -197,18 +192,6 @@ a {
 .footer-links-one,
 .privacy-and-contact-links {
   font-size: 14px;
-}
-
-.company-links {
-  position: relative;
-  left: 1000px;
-  bottom: 229px;
-}
-
-.product-links {
-  position: relative;
-  left: 1200px;
-  bottom: 340px;
 }
 
 .privacy-and-contact {
