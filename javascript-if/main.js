@@ -9,49 +9,58 @@
  */
 
 function isUnderFive(number) {
+  let result;
   var underFive = number < 5;
   if ((number < 5)) {
-    return underFive;
-  } else if ((number > 5)) {
-    return underFive;
+    result = underFive;
+  } else {
+    result = underFive;
   }
+  return result;
 }
 
 function isEven(number) {
+  let result;
   var even = (number % 2 === 0);
   if ((number % 2 === 0)) {
-    return even;
-  } else if ((number % 2 !== 0)) {
-    return even;
+    result = even;
+  } else {
+    result = even;
   }
+  return result;
 }
 
 function startsWithJ(string) {
+  let result;
   var withJ = (string[0] === 'J');
   if ((string[0] === 'J')) {
-    return withJ;
-  } else if ((string[0] !== 'J')) {
-    return withJ;
+    result = withJ;
+  } else {
+    result = withJ;
   }
-
+  return result;
 }
 
 function isOldEnoughToDrink(person) {
+  let result;
   var oldEnoughToDrink = (person.age >= 21);
   if ((person.age >= 21)) {
-    return oldEnoughToDrink;
+    result = oldEnoughToDrink;
   } else if ((person.age < 21)) {
-    return oldEnoughToDrink;
+    result = oldEnoughToDrink;
   }
+  return result;
 }
 
 function isOldEnoughToDrive(person) {
+  let result;
   var oldEnoughToDrive = (person.age >= 16);
   if ((person.age >= 16)) {
-    return oldEnoughToDrive;
+    result = oldEnoughToDrive;
   } else if ((person.age < 16)) {
-    return oldEnoughToDrive;
+    result = oldEnoughToDrive;
   }
+  return result;
 }
 
 function isOldEnoughToDrinkAndDrive(person) {
@@ -60,26 +69,29 @@ function isOldEnoughToDrinkAndDrive(person) {
 }
 
 function categorizeAcidity(pH) {
+  let result;
   if ((pH === 7)) {
-    return 'neutral';
+    result = 'neutral';
   } else if ((pH >= 0 && pH < 7)) {
-    return 'acid';
+    result = 'acid';
   } else if ((pH > 7 && pH <= 14)) {
-    return 'base';
+    result = 'base';
   } else {
-    return 'invalid pH level';
+    result = 'invalid pH level';
   }
+  return result;
 }
 
 function introduceWarnerBro(name) {
+  let result;
   if (name === 'wakko') {
-    return "We're the Warner Brothers!";
+    result = "We're the Warner Brothers!";
   } else if (name === 'yakko') {
-    return "We're the Warner Brothers!";
+    result = "We're the Warner Brothers!";
   } else if (name === 'dot') {
-    return "I'm cute~";
+    result = "I'm cute~";
   } else {
-    return 'Goodnight everybody!';
+    result = 'Goodnight everybody!';
   }
-
+  return result;
 }
