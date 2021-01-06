@@ -1,0 +1,53 @@
+html {
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  justify-content: center;
+  margin: 0 100px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 70%;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.price {
+  background-color: #fff2e7;
+  border-radius: 4px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.row {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-fifths {
+  flex-basis: 25%;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+.size {
+  color: gray;
+  font-size: 14px;
+}
+
+.original-price {
+  color: gray;
+}
