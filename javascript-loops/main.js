@@ -59,7 +59,7 @@ function getKeys() {
   var object = { isbn: '453453', title: 'titleone' };
   var keys = [];
   for (var key in object) {
-    keys.push(object[key]);
+    keys.push(key);
   }
   return keys;
 }
