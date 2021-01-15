@@ -41,15 +41,9 @@ button:active {
 }
 
 .column:first-child > img.pokeball {
-  max-width: 100px;
-  margin: 0 auto 1rem;
-  display: block;
   transform: rotate(-30deg);
 }
 
 .column:last-child > img.pokeball {
-  max-width: 100px;
-  margin: 0 auto 1rem;
-  display: block;
   transform: rotate(30deg);
 }
