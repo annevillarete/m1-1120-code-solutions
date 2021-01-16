@@ -73,8 +73,6 @@ body {
   text-align: center;
 }
 
-
-
 .no-hidden {
   display: none;
   width: 150px;
@@ -99,14 +97,4 @@ body {
   background-color: #eb5d5d;
   font-size: 16px;
   cursor: pointer;
-}
-
-.overlay {
-  position: fixed;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
