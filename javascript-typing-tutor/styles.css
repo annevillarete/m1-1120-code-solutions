@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.typing-default {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: black;
+  padding: 10px;
+}
+
+.typing-correct {
+  color: green;
+}
+
+.typing-incorrect {
+  color: red;
+}
+
+.typing-border {
+  border-bottom: 5px solid;
+}
