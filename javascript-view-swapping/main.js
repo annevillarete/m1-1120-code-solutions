@@ -12,8 +12,7 @@ $container.addEventListener('click', function (event) {
            $tab[i].className = 'tab active';
           } else {
             $tab[i].className = 'tab';
-      }
-    }
+      }}
 
 var $dataView = event.target.getAttribute('data-view');
 
@@ -24,5 +23,4 @@ for (var i = 0; i < $view.length; i++) {
     $view[i].className = 'view';
   }
 }
-
 });
